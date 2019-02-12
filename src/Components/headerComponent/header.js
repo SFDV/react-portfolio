@@ -8,6 +8,10 @@ class Header extends Component {
 
         <div class="container">
 
+            <p class="logo">
+                Dan Vickey
+            </p>
+
             <nav>
                 <ul>
                     <li>
