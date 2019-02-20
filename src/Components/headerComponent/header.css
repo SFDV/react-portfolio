@@ -22,7 +22,7 @@ header {
 nav {
     position: absolute;
     right: 0px;
-    top: 50%;
+    top: 38px;
 }
 
 li {
@@ -34,4 +34,10 @@ li {
 
 a {
     color: white;
+    transition: 0.5s;
+}
+
+a:hover{
+    text-decoration: none;
+    transform: scale(1.2);
 }
