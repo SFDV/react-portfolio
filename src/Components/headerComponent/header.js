@@ -8,15 +8,19 @@ class Header extends Component {
 
         <div class="container">
 
+          <div class="logo">
+            
+          </div>
+
           <nav>
               <ul>
-                  <li>
+                  <li class="nav transform">
                       <a class="home" href="#">Home</a>
                   </li>
-                  <li>
+                  <li class="nav transform">
                       <a class="projects" href="#">Projects</a>
                   </li>
-                  <li>
+                  <li class="nav transform">
                       <a class="contact" href="#">Contact</a>
                   </li>
               </ul>

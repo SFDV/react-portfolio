@@ -27,17 +27,25 @@ nav {
 
 li {
     font-size: 35px;
-    display: inline;
-    padding: 7px;
     font-family: 'Staatliches', cursive;
+}
+.nav {
+    display: inline-block;
+    padding-right: 7px;
+    padding-left: 7px;
+    transition: 0.5s;
+}
+
+.nav:hover {
+    transform: scale(1.1);
 }
 
 a {
-    color: white;
+    color: #d1d1d1;
     transition: 0.5s;
 }
 
 a:hover{
+    color: white;
     text-decoration: none;
-    transform: scale(1.2);
 }
