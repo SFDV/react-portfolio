@@ -1,0 +1,19 @@
+footer {
+    display: black;
+    border-radius: 15px;
+    height: 85px;
+    margin: 10px;
+    background: black;
+}
+
+footer .container {
+    position: relative;
+    top: 40%;
+}
+
+p {
+    color: #d1d1d1;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
