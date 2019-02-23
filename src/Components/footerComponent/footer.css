@@ -11,7 +11,7 @@ footer .container {
     top: 40%;
 }
 
-p {
+.footerlabel {
     color: #d1d1d1;
     font-size: 15px;
     text-align: center;

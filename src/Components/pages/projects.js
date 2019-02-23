@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 
-class Homepage extends Component {
+class Projects extends Component {
   render() {
     return (
         <div class="container">
-          <h1>Homepage Content</h1>
-          <p>lorem ipusm </p>
+          <p>Projects Page Content</p>
         </div>
 
     );
   }
 }
 
-export default Homepage;
+export default Projects;
