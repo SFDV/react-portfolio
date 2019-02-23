@@ -15,13 +15,13 @@ class Header extends Component {
           <nav>
               <ul>
                   <li class="nav transform">
-                      <a class="home" href="#">Home</a>
+                      <a class="home" href="/">Home</a>
                   </li>
                   <li class="nav transform">
-                      <a class="projects" href="#">Projects</a>
+                      <a class="projects" href="/projects">Projects</a>
                   </li>
                   <li class="nav transform">
-                      <a class="contact" href="#">Contact</a>
+                      <a class="contact" href="/contact">Contact</a>
                   </li>
               </ul>
           </nav>

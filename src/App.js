@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-//import {
- // BrowserRouter as Router,
-  //Route,
-  //Link
-//} from 'react-router-dom';
-
 
 //Components
 import Header from './Components/headerComponent/header';
 import Footer from './Components/footerComponent/footer';
 import Homepage from './Components/pages/homepage';
 import Projects from './Components/pages/projects';
+import Contact from './Components/pages/contact';
 
 
 class App extends Component {
@@ -20,6 +15,7 @@ class App extends Component {
         <Header />
         <Homepage />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     );
