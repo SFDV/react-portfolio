@@ -6,6 +6,7 @@ import Footer from './Components/footerComponent/footer';
 import Homepage from './Components/pages/homepage';
 import Projects from './Components/pages/projects';
 import Contact from './Components/pages/contact';
+import './App.css';
 
 
 class App extends Component {
@@ -13,9 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Homepage />
-        <Projects />
-        <Contact />
+        <div className="maincontainer">
+          <Homepage />
+          <Projects />
+          <Contact />
+        </div>  
         <Footer />
       </div>
     );
