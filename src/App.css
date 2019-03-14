@@ -6,4 +6,12 @@
     border: 2px solid;
     border-radius: 15px;
     border-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+p {
+    position: relative;
+    float: right;
+    right: 10%;
 }
