@@ -10,8 +10,89 @@
     overflow: hidden;
 }
 
-p {
+#homepageText {
     position: relative;
     float: right;
-    right: 10%;
+    padding-top: 25px;
+}
+
+.skillscontainer {
+    position: relative;
+    float: right;
+}
+
+.skillimg {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); 
+}
+
+.skillimg:hover{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#html5img {
+    height: 70px;
+    width: 60px;
+    margin-right: 4px;
+}
+
+#css3img {
+    height: 70px;
+    width: 60px;
+    margin: 4px;
+}
+
+#jsimg {
+    height: 72px;
+    width: 59px;
+    margin: 4px;
+}
+
+#handlebarsimg {
+    height: 72px;
+    width: 80px;
+}
+
+#jqueryimg {
+    height: 60px;
+    width: 65px;
+}
+
+#nodeimg {
+    height: 68px;
+    width: 68px;
+}
+
+#reactimg {
+    height: 68px;
+    width: 68px;
+}
+
+#mysqlimg {
+    height: 80px;
+    width: 72px;
+}
+
+#firebaseimg {
+    height: 60px;
+    width: 40px;
+}
+
+#mongodbimg {
+    height: 80px;
+    width: 72px;
+}
+
+#sequelizeimg {
+    height: 75px;
+    width: 68px;
 }
