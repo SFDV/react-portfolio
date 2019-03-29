@@ -28,6 +28,7 @@ class Homepage extends Component {
               <img class="skillimg" id="firebaseimg" alt="" src={require("./images/firebase.png")} />
               <img class="skillimg" id="mongodbimg" alt="" src={require("./images/mongodb-logo.png")} />
               <img class="skillimg" id="sequelizeimg" alt="" src={require("./images/Sequelize.png")} />
+              <img class="skillimg" id="expressimg" alt="" src={require("./images/express.png")} />
 
             </div>
           </p>
