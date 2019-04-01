@@ -10,6 +10,8 @@
     overflow: hidden;
 }
 
+/*homepage*/
+
 #homepageText {
     position: relative;
     float: right;
@@ -102,3 +104,6 @@
     width: 68px;
     margin-left: 5px;
 }
+
+/*project page*/
+
