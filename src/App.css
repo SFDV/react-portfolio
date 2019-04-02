@@ -107,3 +107,49 @@
 
 /*project page*/
 
+.individualprojects {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 2%;
+    padding: 20px;
+    height: 500px;
+    width: 48%;
+}
+
+.individualprojects:hover {
+    background-color: white;
+    transform: scale(1.03);
+    transition: 0.5s
+}
+
+#smash {
+    margin-top: 25px;
+    margin-left: 17px;
+    float: left;
+}
+
+#smashlogo {
+    height: 250px;
+    width: 250px;
+}
+
+#america {
+    float: right;
+    margin-top: 25px;
+    margin-right: 17px;
+}
+
+#americalogo {
+    height: 185px;
+    width: 250px
+}
+.partner {
+    color: black;
+    text-decoration: underline;
+}
+
+.partner:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: 0s;
+}
