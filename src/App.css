@@ -209,6 +209,7 @@
     position: relative;
     float: left;
     padding-top: 2.5%;
+    margin-left: 15px;
 }
 
 .octocat {
@@ -217,6 +218,5 @@
     height: 75px;
     width: 75px;
     margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 15px;
+    margin-left: 5%;
 }

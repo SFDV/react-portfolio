@@ -32,11 +32,16 @@ class Projects extends Component {
               <img class="projectlogo" id="americalogo" alt="" src={require("./images/americalogo.png")} />
             </div>
           </a>
-          <div class="github">
-            <img class="octocat" alt="" src={require("./images/Ocotocat.png")} />
+          <a href="https://github.com/SFDV">
+            <div class="github">
+              
+              <img class="octocat" alt="" src={require("./images/Ocotocat.png")} />
             
-            <p id="githublink">If you're interested in seeing more of my work click here to check out my GitHub!</p>
-          </div>
+              
+              <p id="githublink">If you're interested in seeing more of my work click here to check out my GitHub!</p>
+            
+            </div>
+          </a>
         </div>
 
     );
