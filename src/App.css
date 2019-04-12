@@ -224,27 +224,10 @@
 /*Contact Page*/
 
 form {
-    float: left;
-    margin-left: -5%;
+    margin-left: 25px;
 }
 
 label {
     float: left;
 }
 
-input {
-    border-radius: 1px;
-    border-color: black;
-}
-
-button {
-    background-color: white;
-    border-color: black;
-    opacity: 75%;
-    border-radius: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-bottom: 10px;
-}

@@ -1,38 +1,62 @@
 import React, { Component } from 'react';
+import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
+import axios from 'axios';
 
 class Contact extends Component {
+  constructor() {
+    super()
+
+    this.state = {
+      name: '',
+      email: '',
+      message: '',
+    }
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  async handleSubmit(e) {
+    e.preventDefault()
+
+    const { name, email, message } = this.state
+
+    const form = await axios.post('/api/form', {
+      name,
+      email,
+      message
+    })
+  }
+
   render() {
     return (
-        <div class="contact container">
-          <h1>Contact Content</h1>
-          
-          <div class="col-md-8">
+      <div class="Form">
+        <h1>Contact Me</h1>
+        <Form onSubmit={this.handleSubmit} style={{ width: '750px' }}>
+          <h2>Contact Me</h2>
 
-            <form class="col-md-8" action="mailto:djvic319@gmail.com" method="post" encType="text/plain">
-              <h2>Contact Me</h2>
+          <FormGroup>
+            <Label for="name">Name:</Label>
+            <Input type="text" name="name" placeholder="Name" onChange={this.handleChange} />
+          </FormGroup>
 
-              <label class="label">Name</label>
-              <input type="text" class="form-control" placeholder="Name" name="name" required />
-              <br />
+          <FormGroup>
+            <Label for="email">Email:</Label>
+            <Input type="text" name="email" placeholder="Email" onChange={this.handleChange} />
+          </FormGroup>
 
-              <label class="label">Email</label>
-              <input type="email" class="form-control" placeholder="Email" name="email" required />
-              <br/>
+          <FormGroup>
+            <Label for="message">Message:</Label>
+            <Input type="textarea" name="message" placeholder="Message" rows="5" onChange={this.handleChange} />
+          </FormGroup>
 
-              <label class="label">Subject</label>
-              <input type="text" class="form-control"  placeholder="Subject" name="subject" required />
-              <br/>
-
-              <label class="label">Message</label>
-              <textarea class="form-control" type="text"  placeholder="Message" name="message" rows="5" required />
-              <br/>
-
-              <button type="submit" value="submit">Send</button>
-            
-            </form>
-          
-          </div>
-        </div>
+          <Button>Submit</Button>
+        </Form>
+      </div>
 
     );
   }

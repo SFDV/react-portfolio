@@ -4,11 +4,14 @@
   "private": true,
   "homepage": "https://SFDV.github.io/react-portfolio/",
   "dependencies": {
+    "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "reactstrap": "^8.0.0",
+    "save": "^2.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
